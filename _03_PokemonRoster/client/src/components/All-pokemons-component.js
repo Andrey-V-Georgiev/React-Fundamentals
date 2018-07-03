@@ -20,7 +20,8 @@ class AllPokemons extends React.Component {
     return (
       <div className="container allPokemonsFrame">
         <div className="row">
-          {this.state.allPokemons.map((pokemon) => <Pokemon
+          {this.state.allPokemons.map((pokemon, index) => <Pokemon
+            key={index}
             pokemonName={pokemon.pokemonName}
             pokemonImg={pokemon.pokemonImg}
             pokemonInfo={pokemon.pokemonInfo}

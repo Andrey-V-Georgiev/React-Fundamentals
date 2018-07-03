@@ -9,7 +9,6 @@ export default class Pokemon extends React.Component {
           <div className="card-body">
             <h5 className="card-title">{this.props.pokemonName}</h5>
             <p className="card-text">{this.props.pokemonInfo}</p>
-            <a href="#" className="btn btn-primary">Details</a>
           </div>
       </div>
     )
