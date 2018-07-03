@@ -1,0 +1,88 @@
+
+body, html  {
+    text-align: center!important;
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+}
+
+.App {
+    height: 100%;
+}
+
+.navbar {
+    height: 59px;
+}
+
+.btn-group{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.form-register {
+    height: 100%;
+    width: 100%;
+    max-width: 330px;
+    padding: 100px 15px 15px 15px;
+    margin: auto;
+}
+
+.form-login {
+    height: 100%;
+    width: 100%;
+    max-width: 330px;
+    padding: 120px 15px 15px 15px;
+    margin: auto;
+}
+
+.form-add {
+    height: 100%;
+    width: 100%;
+    max-width: 600px;
+    padding: 120px 15px 15px 15px;
+    margin: auto;
+}
+
+.form-control {
+    margin: 10px 0 10px 0;
+}
+
+p {
+    font-size: 12px;
+}
+
+#error {
+    margin-top: 200px;
+}
+
+.allPokemonsFrame {
+    margin-top: 100px;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    padding-bottom: 0;
+}
+
+.card-img-top {
+    width: 190px;
+    height: 150px;
+    margin:5px;
+}
+
+.card-body {
+    height: 100px;
+    width: 190px;
+}
+
+
+
+
+
+
+
